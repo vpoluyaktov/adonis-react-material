@@ -23,6 +23,11 @@ To start developing your app, do:
 
 ```js
 cd <name>
+
+# install React dependencies 
+cd client; npm install; cd..
+
+# run dev server
 npm run start
 ```
 
