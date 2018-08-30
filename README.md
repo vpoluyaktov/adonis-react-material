@@ -15,7 +15,7 @@ npm i -g @adonisjs/cli
 And then to create a project:
 
 ```bash
-adonis new <name> --blueprint=MargotDem/adonis-react-app
+adonis new <name> --blueprint=vpoluyaktov/adonis-react-material
 ```
 
 #### Development:
