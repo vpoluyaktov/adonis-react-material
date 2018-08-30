@@ -1,28 +1,29 @@
-# Adonis API application
+# Adonis-React application
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+This is an unofficial boilerplate for [AdonisJs](https://adonisjs.com/) API with a [ReactJS](https://reactjs.org/) frontend and [Material-UI](https://material-ui.com) framework
 
 ## Setup
 
-Use the adonis command to install the blueprint
+You can manually clone the repo and then run `npm install`, or you can do it the Adonis way:
+
+First, install the cli tool globally:
 
 ```bash
-adonis new yardstick --api-only
+npm i -g @adonisjs/cli
 ```
 
-or manually clone the repo and then run `npm install`.
+And then to create a project:
 
+```bash
+adonis new <name> --blueprint=MargotDem/adonis-react-app
+```
 
-### Migrations
-
-Run the following command to run startup migrations.
+#### Development:
+To start developing your app, do:
 
 ```js
-adonis migration:run
+cd <name>
+npm run start
 ```
+
+This will concurrently serve AdonisJS API server on http://localhost:3333 and launch React dev server on http://localhost:3000 for rontend assets
